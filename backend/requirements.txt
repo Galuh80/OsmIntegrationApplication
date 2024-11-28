@@ -1,0 +1,15 @@
+asgiref==3.6.0
+django==4.2
+python-dotenv==0.16.0
+pip==23.0.1
+psycopg2-binary==2.9.6
+setuptools==60.2.0
+sqlparse==0.4.3
+wheel==0.37.1
+django-widget-tweaks
+passlib
+Pillow
+django-leaflet
+gunicorn
+django_rest_framework
+GDAL==3.3.1

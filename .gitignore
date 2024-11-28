@@ -1,0 +1,24 @@
+# Backend Python
+backend/venv/
+backend/*.pyc
+backend/__pycache__/
+backend/db.sqlite3
+backend/.env
+
+# Fontend React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+  "name": "osmintegrationapplication",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "npm start --workspace=frontend",
+    "start:backend": "cd backend && source env/bin/activate && python manage.py runserver",
+    "install:backend": "cd backend && python3 -m venv env && source env/bin/activate && pip install -r requirements.txt",
+    "install:frontend": "npm install --workspace=frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
